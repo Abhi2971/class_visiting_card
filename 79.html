@@ -26,71 +26,178 @@
         background-color: rgb(167, 184, 184);
         background-image: linear-gradient(to bottom right, rgb(114, 114, 114), rgb(31, 31, 26));
     }
-    .container1{
+
+    .container1 {
         position: absolute;
         height: 60mm;
         width: 100mm;
         top: 0mm;
         margin-top: 15mm;
         margin-left: 20mm;
-        background-color: burlywood;
+        background-color: rgb(255, 255, 255);
         border-radius: 1mm;
         overflow: hidden;
     }
-    .box1{
+
+    .box1 {
+        position: absolute;
+        height: 40mm;
+        width: 8mm;
+        background-color: #0095ff;
+        bottom: -9mm;
+        margin: 0mm;
+        transform: rotate(-45deg);
+        box-shadow: 1.4mm 3mm #596366a1;
+    }
+
+    .box2 {
         position: absolute;
         height: 20mm;
-        width: 5mm;
-        background-color: #f0f0f0;
+        width: 20mm;
+        background-color: #2cb2f6;
+        bottom: -14mm;
+        left: -10mm;
+        transform: rotate(45deg);
+        margin: 0mm;
+    }
+
+    .box3 {
+        position: absolute;
+        height: 10mm;
+        width: 85mm;
+        background-color: #000000;
+        bottom: -1mm;
+        left: 19mm;
+        margin: 0mm;
+        transform: skewX(45deg);
+    }
+
+    .box4 {
+        position: absolute;
+        height: 12mm;
+        width: 8mm;
+        background-color: #000000;
         bottom: 0mm;
-        transform: rotate(-50deg);
+        left: 14.5mm;
+        margin: 0mm;
+        transform: skewX(45deg);
     }
-    .box2{
+
+    .box5 {
         position: absolute;
+        height: 9mm;
+        width: 85mm;
+        background-color: #2cb2f6;
+        bottom: 3mm;
+        left: 50mm;
+        margin: 0mm;
+        transform: skewX(45deg);
     }
-    .box3{
+
+    .box6 {
         position: absolute;
+        height: 12mm;
+        width: 12mm;
+        top: 30mm;
+        left: 11mm;
+        margin: 0mm;
+        border: 0.5mm solid #2cb2f6;
     }
-    .box4{
+
+    .box7 {
         position: absolute;
+        width: 13mm;
+        top: 15mm;
+        left: 8mm;
+        border-bottom: 0.6mm solid #2cb2f6;
     }
-    .box5{
+
+    .box8 {
         position: absolute;
+        width: 5mm;
+        height: 5mm;
+        top: 34mm;
+        right: 8mm;
+        background-color: #2cb2f6;
     }
-    .box6{
+
+    .box9 {
         position: absolute;
+        width: 5mm;
+        height: 5mm;
+        top: 41mm;
+        right: 8mm;
+        background-color: #2cb2f6;
     }
-    .box7{
-        position: absolute;
-    }
-    .box8{
-        position: absolute;
-    }
-    .box9{
-        position: absolute;
-    }
-    .container2{
+
+    .container2 {
         position: absolute;
         height: 60mm;
         width: 100mm;
         bottom: 0mm;
         margin-bottom: 15mm;
         margin-left: 20mm;
-        background-color: burlywood;
+        background-color: rgb(255, 255, 255);
         border-radius: 1mm;
         overflow: hidden;
     }
-    .box10{
+
+    .box10 {
         position: absolute;
+        height: 40mm;
+        width: 8mm;
+        background-color: #0095ff;
+        bottom: -9mm;
+        margin: 0mm;
+        transform: rotate(-135deg);
+        box-shadow: 1.4mm 3mm #596366a1;
+        right: 0mm;
     }
-    .box11{
+
+    .box11 {
         position: absolute;
+        height: 20mm;
+        width: 20mm;
+        background-color: #2cb2f6;
+        bottom: -14mm;
+        right: -10mm;
+        transform: rotate(45deg);
+        margin: 0mm;
     }
-    .box12{
+
+    .box12 {
         position: absolute;
+        height: 10mm;
+        width: 85mm;
+        background-color: #000000;
+        bottom: -1mm;
+        right: 19mm;
+        margin: 0mm;
+        transform: skewX(-45deg);
     }
-    .box13{
+
+    .box13 {
         position: absolute;
+        height: 12mm;
+        width: 8mm;
+        background-color: #000000;
+        bottom: 0mm;
+        right: 14.5mm;
+        margin: 0mm;
+        transform: skewX(-45deg);
+    }
+
+    .box14 {
+        position: absolute;
+        height: 9mm;
+        width: 85mm;
+        background-color: #2cb2f6;
+        bottom: 3mm;
+        right: 50mm;
+        /* Changed from left to right */
+        margin: 0mm;
+        transform: skewX(-45deg);
+        /* Adjusted skewX to -45deg */
     }
 </style>
 
@@ -113,6 +220,7 @@
             <div class="box11"></div>
             <div class="box12"></div>
             <div class="box13"></div>
+            <div class="box14"></div>
         </div>
     </div>
 </body>
